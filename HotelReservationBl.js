@@ -2,16 +2,16 @@ let hotelList =  require('./Hotels.json');
 
  const listOfHotels = function (){
  let selectedHotel = require('readline-sync');
- hotelList.hotels.forEach(element => {
-    console.log(element.name);
+ hotelList.hotels.forEach(Hotel => {
+    console.log(Hotel.name);
  });
  let selectedName =  selectedHotel.question("select any hotel :");
- hotelList.hotels.forEach(element => {
-     if(element.name === selectedName){
-         console.log(element);
+ hotelList.hotels.forEach(Hotel => {
+     if(Hotel.name === selectedName){
+         console.log(Hotel);
          let choice =    selectedHotel.question("are you intrested to book this Hotel ! yes/no  :");
          if(choice === "yes"){
-             console.log("thanks for Booking Hotel");
+             console.log("thanks for Booking Hotel :" ,Hotel.name);
              return;
          }
          else if(choice === "no"){
