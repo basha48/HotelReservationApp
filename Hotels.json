@@ -1,0 +1,50 @@
+{
+    "hotels" : [ {
+        "name" : "OYO",
+        "place" :"Hyd",
+        "no of Rooms" :"10",
+        "features" : [
+            {
+                "Ac" : "Yes",
+                "Tv" : "Yes",
+                "Wifi" :"Yes",
+                "Out Side Food" :"No"
+            }
+        ],
+        "Price " : 1500,
+        "checkInTime" : "5 : 30 am",
+        "checkOutTime" : "6:30 pm"
+   },
+   { "name" : "Bindu",
+        "place" :"Pondicherry",
+        "no of Rooms" :6,
+        "features" : [
+            {
+                "Ac" : "No",
+                "Tv" : "Yes",
+                "Wifi" :"Yes",
+                "Out Side Food" :"Yes"
+            }
+        ],
+        "Price " : 1000,
+        "checkInTime" : "5 : 30 am",
+        "checkOutTime" : "6:30 pm"
+   },
+   { "name" : "Kaveri",
+    "place" :"Mumbai",
+    "no of Rooms" :"12",
+    "features" : [
+        {
+            "Ac" : "Yes",
+            "Tv" : "Yes",
+            "Wifi" :"Yes",
+            "Out Side Food" :"Yes"
+        }
+    ],
+    "Price " : 1200,
+    "checkInTime" : "5 : 30 am",
+    "checkOutTime" : "6:30 pm"
+}
+
+   ]
+}
